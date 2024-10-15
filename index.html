@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="form_box">
+                <div class="btn_box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle_btn" onclick="login()">Login</button>
+                    <button type="button" class="toggle_btn" onclick="register()">Register</button>
+                </div>
+                <div class="iconicon">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Facebook-icon-1.png/768px-Facebook-icon-1.png">
+                    <img src="https://cdn-icons-png.freepik.com/256/3938/3938028.png?semt=ais_hybrid">
+                    <img src="https://www.shareicon.net/data/2015/10/04/111674_google_512x512.png">
+                </div>
+                <form id="login" class="inp_group">
+                    <input type="text" class="inp_inp" placeholder="Nhập tài khoản của bạn">
+                    <input type="password" class="inp_inp" placeholder="Nhập mật khẩu của bạn">
+                    <input type="checkbox" class="check_box">
+                    Nhớ mật khẩu
+
+                    <a class="submit_btn" href="homePage.html">
+                        Login
+                    </a>
+                </form>
+                <form id="register" class="inp_group">
+                    <input type="text" class="inp_inp" placeholder="Nhập tài khoản của bạn">
+                    <input type="email" class="inp_inp" placeholder="Nhập email của bạn">
+                    <input type="password" class="inp_inp" placeholder="Nhập mật khẩu của bạn">
+                    <input type="checkbox" class="check_box"><span>Nhớ mật khẩu</span>
+                    <button type="submit" class="submit_btn">Register</button>
+                </form>
+            </div>
+
+        </div>
+        <script>
+            var x = document.getElementById( "login" )
+            var y = document.getElementById( "register" )
+            var z = document.getElementById( "btn" )
+
+            function register ()
+            {
+                x.style.left = "-450px"
+                y.style.left = "50px"
+                z.style.left = "110px"
+            }
+
+            function login ()
+            {
+                x.style.left = "50px"
+                y.style.left = "450px"
+                z.style.left = "0px"
+            }
+        </script>
+    </body>
+
+</html>

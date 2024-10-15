@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styleHome.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+
+        <header>
+
+            <input type="checkbox" id="toggler">
+            <label for="toggler" class="fa-solid fa-bars"></label>
+
+            <a href="" class="logo">COFFEE <span>.</span></a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Product</a>
+                <a href="#contact">contact</a>
+            </nav>
+            <div class="icons">
+                <a href="" class="fa-solid fa-heart"></a>
+                <a href="" class="fa-solid fa-cart-shopping"></a>
+                <a href="index.html" class="fa-solid fa-user"></a>
+            </div>
+        </header>
+
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Coffee</h3>
+                <span>natural & beautiful flowers</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Odio vitae iusto nemo totam assumenda blanditiis sed.
+                    Dignissimos illum similique totam facere amet,
+                    ex doloremque eius, repudiandae quidem voluptatem quia quam!
+                </p>
+                <a href="#" class="btn">Shop now</a>
+
+            </div>
+
+        </section>
+        <section class="about" id="about">
+            <h1 class="heading"><span>about</span>us</h1>
+            <div class="row">
+                <div class="vd-container">
+                    <video src="https://videos.pexels.com/video-files/2909914/2909914-sd_960_506_24fps.mp4" loop
+                        autoplay muted></video>
+                    <h3>best flower seliers</h3>
+                </div>
+                <div class="content">
+                    <h3>why choose us?</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Corrupti adipisci aperiam non sequi, obcaecati,
+                        optio ut autem harum sed porro, vitae eaque aliquam hic aliquid quasi doloribus saepe. Sint,
+                        modi!
+                    </p>
+                    <a href="" class="btn">leanr more</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="icons-container">
+            <div class="icons">
+                <img src="data:image/png;base64,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"
+                    alt="">
+                <div class="info">
+                    <h3>free delivery</h3>
+                    <span>on all orders</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <img src="https://i.pinimg.com/474x/ec/c0/de/ecc0dea914481c0d551c6e19c2a84cb2.jpg" alt="">
+                <div class="info">
+                    <h3>10 days returns</h3>
+                    <span>on all orders</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <img src="https://png.pngtree.com/png-vector/20190420/ourmid/pngtree-gift-card-graphic-design-template-vector-isolated-png-image_969290.jpg"
+                    alt="">
+                <div class="info">
+                    <h3>Offers & Gifts</h3>
+                    <span>on all orders</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <img src="data:image/png;base64,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"
+                    alt="">
+                <div class="info">
+                    <h3>Secure Paymens</h3>
+                    <span>on all orders</span>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="products" id="products">
+            <h1 class="heading"> latest <span>products</span></h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <span class="discount">-10% </span>
+                    <div class="image">
+                        <img src="https://product.hstatic.net/1000405326/product/1-ca-phe-sua-1586320543_db6b2889d0754ecdbd256999a539985c_abdd8d86faeb4c57b99c40c4845c929a_1024x1024.jpg"
+                            alt="">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-heart"></a>
+                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="fa-solid fa-share"></a>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <h3>flower pots</h3>
+                        <div class="price">$12.09 <span>$15.999</span></div>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10% </span>
+                    <div class="image">
+                        <img src="https://product.hstatic.net/1000405326/product/1-ca-phe-sua-1586320543_db6b2889d0754ecdbd256999a539985c_abdd8d86faeb4c57b99c40c4845c929a_1024x1024.jpg"
+                            alt="">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-heart"></a>
+                            <a href="#">add to cart</a>
+                            <a href="#" class="fa-solid fa-share"></a>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <h3>flower pots</h3>
+                        <div class="price">$12.09 <span>$15.999</span></div>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10% </span>
+                    <div class="image">
+                        <img src="https://product.hstatic.net/1000405326/product/1-ca-phe-sua-1586320543_db6b2889d0754ecdbd256999a539985c_abdd8d86faeb4c57b99c40c4845c929a_1024x1024.jpg"
+                            alt="">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-heart"></a>
+                            <a href="#">add to cart</a>
+                            <a href="#" class="fa-solid fa-share"></a>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <h3>flower pots</h3>
+                        <div class="price">$12.09 <span>$15.999</span></div>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10% </span>
+                    <div class="image">
+                        <img src="https://product.hstatic.net/1000405326/product/1-ca-phe-sua-1586320543_db6b2889d0754ecdbd256999a539985c_abdd8d86faeb4c57b99c40c4845c929a_1024x1024.jpg"
+                            alt="">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-heart"></a>
+                            <a href="#">add to cart</a>
+                            <a href="#" class="fa-solid fa-share"></a>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <h3>flower pots</h3>
+                        <div class="price">$12.09 <span>$15.999</span></div>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10% </span>
+                    <div class="image">
+                        <img src="https://product.hstatic.net/1000405326/product/1-ca-phe-sua-1586320543_db6b2889d0754ecdbd256999a539985c_abdd8d86faeb4c57b99c40c4845c929a_1024x1024.jpg"
+                            alt="">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-heart"></a>
+                            <a href="#">add to cart</a>
+                            <a href="#" class="fa-solid fa-share"></a>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <h3>flower pots</h3>
+                        <div class="price">$12.09 <span>$15.999</span></div>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10% </span>
+                    <div class="image">
+                        <img src="https://product.hstatic.net/1000405326/product/1-ca-phe-sua-1586320543_db6b2889d0754ecdbd256999a539985c_abdd8d86faeb4c57b99c40c4845c929a_1024x1024.jpg"
+                            alt="">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-heart"></a>
+                            <a href="#">add to cart</a>
+                            <a href="#" class="fa-solid fa-share"></a>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <h3>flower pots</h3>
+                        <div class="price">$12.09 <span>$15.999</span></div>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10% </span>
+                    <div class="image">
+                        <img src="https://product.hstatic.net/1000405326/product/1-ca-phe-sua-1586320543_db6b2889d0754ecdbd256999a539985c_abdd8d86faeb4c57b99c40c4845c929a_1024x1024.jpg"
+                            alt="">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-heart"></a>
+                            <a href="#">add to cart</a>
+                            <a href="#" class="fa-solid fa-share"></a>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <h3>flower pots</h3>
+                        <div class="price">$12.09 <span>$15.999</span></div>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10% </span>
+                    <div class="image">
+                        <img src="https://product.hstatic.net/1000405326/product/1-ca-phe-sua-1586320543_db6b2889d0754ecdbd256999a539985c_abdd8d86faeb4c57b99c40c4845c929a_1024x1024.jpg"
+                            alt="">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-heart"></a>
+                            <a href="#">add to cart</a>
+                            <a href="#" class="fa-solid fa-share"></a>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <h3>flower pots</h3>
+                        <div class="price">$12.09 <span>$15.999</span></div>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10% </span>
+                    <div class="image">
+                        <img src="https://product.hstatic.net/1000405326/product/1-ca-phe-sua-1586320543_db6b2889d0754ecdbd256999a539985c_abdd8d86faeb4c57b99c40c4845c929a_1024x1024.jpg"
+                            alt="">
+                        <div class="icons">
+                            <a href="#" class="fa-solid fa-heart"></a>
+                            <a href="#">add to cart</a>
+                            <a href="#" class="fa-solid fa-share"></a>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <h3>flower pots</h3>
+                        <div class="price">$12.09 <span>$15.999</span></div>
+                    </div>
+
+                </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h1 class="heading">
+                <span>contact</span>us
+            </h1>
+
+            <div class="row">
+                <form action="">
+                    <input type="text" placeholder="name" class="box">
+                    <input type="email" placeholder="email" class="box">
+                    <input type="number" placeholder="number" class="box">
+                    <textarea class="box" name="" id="" placeholder="message" cols="30" rows="10"></textarea>
+                    <input type="submit" value="send message" class="btn">
+                </form>
+                <div class="image">
+                    <img src="https://img.freepik.com/premium-photo/barista-man-making-coffee-cafe_862994-495138.jpg"
+                        alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+
+            <div class="box-container">
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#">home</a>
+                    <a href="#">about</a>
+                    <a href="#">product</a>
+                    <a href="#">review</a>
+                    <a href="#">contact</a>
+                </div>
+
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#">my account</a>
+                    <a href="#">my order</a>
+                    <a href="#">my favorite</a>
+                </div>
+
+                <div class="box">
+                    <h3>location</h3>
+                    <a href="#">Vietnamese</a>
+                    <a href="#">USA</a>
+                    <a href="#">india</a>
+                    <a href="#">france</a>
+                    <a href="#">japan</a>
+                </div>
+
+                <div class="box">
+                    <h3>contact info</h3>
+                    <a href="#">+123-456-7890</a>
+                    <a href="#">example@gmai.com</a>
+                    <a href="#"></a>
+                </div>
+
+            </div>
+            <div class="credit">
+                credit by <span>code code & code</span>| all rigts resereved
+            </div>
+
+        </section>
+
+    </body>
+
+</html>
